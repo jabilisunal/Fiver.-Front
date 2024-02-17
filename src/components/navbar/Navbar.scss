@@ -4,10 +4,10 @@
   align-items: center;
   background-color: #013914;
   color: white;
-transition: 0.5s;
-position: sticky;
-top: 0px;
-  &.active{
+  transition: 0.5s;
+  position: sticky;
+  top: 0px;
+  &.active {
     background-color: white;
     color: black;
   }
@@ -30,6 +30,36 @@ top: 0px;
       display: flex;
       align-items: center;
       gap: 24px;
+
+      .user {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        cursor: pointer;
+        img {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        .options {
+          position: absolute;
+          top: 50px;
+          right: 0px;
+          padding: 20px;
+          background-color: white;
+          border-radius: 10px;
+          border: 1px solid lightgray;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          color: gray;
+          width: 200px;
+          font-size: 16x;
+        }
+      }
 
       span {
         cursor: pointer;

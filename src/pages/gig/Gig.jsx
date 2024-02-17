@@ -3,7 +3,7 @@ import "./Gig.scss"
 const Gig = () => {
   return (
     <div>
-      Gigs
+      Gig Single
     </div>
   )
 }
