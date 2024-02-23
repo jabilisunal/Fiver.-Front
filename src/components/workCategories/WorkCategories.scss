@@ -1,0 +1,41 @@
+.work_categories {
+  .container {
+    width: 1440px;
+    .catergory-item {
+      display: flex;
+      height: 150px;
+      width: 80%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      .elements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 20%;
+        img {
+          width: 48px;
+          height: 48px;
+          position: relative;
+          &::after {
+            content: "";
+            display: block;
+            width: 120px;
+            height: 2px;
+            background: #000;
+            left: 0;
+            top: 50%;
+            position: absolute;
+          }
+        }
+        span {
+          margin-top: 10px;
+          // margin-top: 10px;
+          // text-align: center;
+        }
+      }
+    }
+  }
+}

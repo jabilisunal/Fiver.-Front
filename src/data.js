@@ -49,3 +49,56 @@ export const cards = [
       "https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/27f914ed7984fdd2d55aa1fb5e74bd6a-1690384243592/seo-2x.png",
   },
 ];
+
+export const categories=[
+  {
+    id:1,
+    img:"../public/img/item-1.svg",
+    title:"Graphics & Design"
+  },
+  {
+    id:2,
+    img:"../public/img/item-2.svg",
+    title:"Digital Marketing"
+  },
+  {
+    id:3,
+    img:"../public/img/item-3.svg",
+    title:"Writing & Translation"
+  },
+  {
+    id:4,
+    img:"../public/img/item-4.svg",
+    title:"Video & Animation"
+  },
+  {
+    id:5,
+    img:"../public/img/item-5.svg",
+    title:"Music & Audio"
+  },
+  {
+    id:6,
+    img:"../public/img/item-6.svg",
+    title:"Programming & Tech"
+  },
+  {
+    id:7,
+    img:"../public/img/item-7.svg",
+    title:"Business"
+  },
+  {
+    id:8,
+    img:"../public/img/item-8.svg",
+    title:"Lifestyle"
+  },
+  {
+    id:9,
+    img:"../public/img/item-9.svg",
+    title:"Data"
+  },
+  {
+    id:10,
+    img:"../public/img/item-10.svg",
+    title:"Photography"
+  },
+]

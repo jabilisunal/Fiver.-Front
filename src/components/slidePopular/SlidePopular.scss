@@ -1,8 +1,20 @@
-.slidePopular{
-    display: flex;
-    justify-content: center;
-    padding: 100px 0px;
-    .container{
-       width: 1400px;
+.slidePopular {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+  .container {
+    width: 1400px;
+
+    .carousel-next,
+    .carousel-prev {
+      width: 50px;
+      height: 50px;
+      background-color: white;
+      border-radius: 50%;
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      margin: auto;
     }
+  }
 }
